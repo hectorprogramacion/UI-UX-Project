@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            <!-- Brief introduction placeholder -->
+            Hi, I'm Hector Munoz, a passionate developer with little experience in web design, UI/UX, and JavaScript.
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <a href="#" class="project-thumb">
+                <img src="https://via.placeholder.com/150" alt="Project 1 Thumbnail">
+                <p>E-commerce(the actual link is going through some maintainance...)</p>
+            </a>
+            <a href="#" class="project-thumb">
+                <img src="https://via.placeholder.com/150" alt="Project 2 Thumbnail">
+                <p>Project 2</p>
+            </a>
+            <a href="#" class="project-thumb">
+                <img src="https://via.placeholder.com/150" alt="Project 3 Thumbnail">
+                <p>Project 3</p>
+            </a>
+            <!-- Add more project thumbnails as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <!-- Add this modal markup just before </body> in index.html -->
+<!-- filepath: c:\Users\hec10\AppData\Local\Temp\7b5770fe-7c4d-40d2-be42-1957f5f0f26a_Meta_stats.zip.26a\Meta_ads_analysis_1\UI\UX_Final\index.html -->
+<!-- ...existing code... -->
+<div class="modal" id="projectModal">
+    <div class="modal-content">
+        <button class="modal-close" id="closeModal" aria-label="Close">&times;</button>
+        <h3 id="modalTitle">E-commerce store</h3>
+        <p id="modalDescription">My e-commerce store mvp was originally built in html, css and javascript, it was a page with solid foundations and smooth performance, yet has to be translated to liquid due to some troubles along the way.</p>
+    </div>
+</div>
+<!-- ...existing code... -->
+</body>
+</html>
